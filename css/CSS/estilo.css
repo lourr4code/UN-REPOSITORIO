@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ficha {
+    background-color: #b2ff66;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    border: 3px solid #38a800;
+}
+
+.imagen-perfil {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #38a800;
+    background-color: white;
+}
+
+.imagen-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido {
+    margin-top: 60px;
+    text-align: left;
+}
+
+.contenido p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.contenido p strong {
+    font-weight: bold;
+}
